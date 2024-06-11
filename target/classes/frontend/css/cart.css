@@ -1,0 +1,178 @@
+.main{
+  display: flex;
+}
+.search-container input[type="text"]{
+  margin-right: -30px;
+}
+.main .main-left{
+  margin-left: 20px;
+  margin-right: 30px;
+  width: 720px;
+}
+.main .main-left .dau-muc{
+  display: flex;
+  border-bottom: 2px solid #dddcdc;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.main .main-left .dau-muc div{
+  font-weight: bold;
+  margin-top: 35px;
+  margin-right: 60px;
+  margin-bottom: 10px;
+}
+.main .main-left .dau-muc div:last-child{margin-right: 0px}
+.main .main-left .chi-tiet{
+  display: flex;
+  border-bottom: 1px solid #dddcdc;
+  margin-top: 10px;
+  height: 90px;
+  width: 700px;
+  margin-left: 20px;
+  position: relative;
+}
+.main .main-left .chi-tiet .delete i{ cursor: pointer;color: gray;}
+.main .main-left .chi-tiet .delete:hover i{
+  color: black;
+}
+.main .main-left .chi-tiet .name:hover{color: #f272ac;}
+.main .main-left .chi-tiet img{
+  width: 70px;
+  box-shadow: 1px 1px 3px rgba(12, 0, 0, 0.3);
+}
+.chi-tiet .name, .gia, .so-luong, .tong{margin-top: 30px;margin-left:10px; margin-right: 10px}
+.so-luong{margin-left: 30px}
+.so-luong button {
+  border: none;
+  background-color: #eee;
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 0px;
+}
+.so-luong input{
+  width: 30px;
+}
+.chi-tiet .tong{
+  position: absolute;
+  right: 0px;
+  margin-right: -2px;
+}
+.btn{display: flex;}
+.btn div{
+  padding: 20px;
+  margin-right: -20px;
+}
+.btn div button{
+  padding: 12px;
+  
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+.btn .xem-san-pham button{
+  border: 1px solid #c0c0c0;
+  background-color: ghostwhite;
+  color: #11b5d8;
+}
+.btn .xem-san-pham button:hover{
+  color: white;
+  background-color: #11b5d8;
+}
+.btn .update button:hover{
+  background-color: #4ea5b7;
+}
+.btn .update button{
+  background-color: #70d3e8;
+  border: 1px solid #70d3e8;
+  color: white;
+}
+
+.main-right{
+  border-left: 1px solid #dddcdc;
+  margin-top: 40px;
+}
+.main-right .cong-gio-hang, .tam-tinh, .tong, .thanh-toan, .phieu-uu-dai, .text-box2, button{
+  margin-left: 30px;
+}
+.main-right .tam-tinh, .tong{
+  display: flex;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.main-right .tam-tinh a{
+  position: absolute;
+  right: 0px;
+}
+.main-right .tong a{
+  position: absolute;
+  right: 0px;
+}
+.main-right .tam-tinh{
+  border-bottom: 1px solid #dddcdc;
+}
+.main-right .tong{
+  margin-top: 10px;
+  width: 93%;
+  border-bottom: 2px solid #dddcdc;
+}
+
+.main-right .cong-gio-hang{
+  font-weight: bold;
+  border: 4px solid #282828;
+  border-bottom: 4px solid #dddcdc;
+  width: 390px;
+  height: 40px;
+  text-align: center;
+}
+.main-right .cong-gio-hang .text{
+  margin-top: 10px;
+}
+.main-right .thanh-toan{
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  background: #ff78b5;
+  position: relative;
+  cursor: pointer;
+}
+.main-right .thanh-toan:hover{
+  background-color: #ce6192;
+}
+.main-right .thanh-toan .text{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.main-right .phieu-uu-dai{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #dddcdc;
+  height: 30px;
+  font-weight: bold;
+}
+
+.main-right .text-box2 > input[type="text"]{
+  width: 392px;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: -100px;
+}
+.main-right button{
+  height: 35px;
+  width: 400px;
+  background-color: ghostwhite;
+  border: 1px solid #ababab;
+  font-size: 16px;
+}
+.main-right button:hover{
+  background-color: #ababab;
+}
+.main-right{
+  margin-bottom: 50px;
+  z-index: 0;
+}
